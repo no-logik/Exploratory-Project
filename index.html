@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/images/mental-health.jpg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+  <title>Mental Illness - Documentation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+    }
+
+    .title {
+      font-family: 'Francois One', sans-serif;
+      font-size: 5rem;
+      padding-top: 4vh;
+    }
+
+    hr.her {
+      height: 2px !important;
+      color: #000 !important;
+      width: 90%;
+      margin: auto;
+    }
+
+    .intro {
+      margin-top: 20px;
+      background-color: #E9D5C8;
+      height: auto;
+      padding: 40px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .intro-left {
+      width: 50%;
+
+    }
+
+    .intro-right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .intro-left p {
+      text-align: justify;
+    }
+
+    .text-left {
+      color: #902A37;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: #902A37;
+      font-weight: 700;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    .wheel-container {
+      position: relative;
+
+    }
+
+    .click-here {
+      position: absolute;
+      left: 10vw;
+      bottom: 40px;
+    }
+
+    .wheel {
+      margin-top: 20px;
+      height: 100px;
+      width: 100vw;
+      background-color: #476B7D;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: relative;
+      left: -95vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+      padding-right: 80px;
+    }
+
+    .wheel:hover {
+      scale: 1.1;
+      padding-right: 30px;
+      transition: linear 200ms;
+
+    }
+
+    .wheel-heading {
+      text-align: left;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .scroll-out {
+      left: 0 !important;
+      scale: 1 !important;
+      justify-content: start;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .menu {
+      display: inline;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #241F38;
+      cursor: pointer;
+    }
+
+    .overview-content {
+      height: 90vh;
+      overflow-x: scroll;
+      width: 90vw;
+      margin: auto;
+      border: #000 5px solid;
+      padding: 30px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 50%;
+
+    }
+
+    .footer {
+      height: 300px;
+      background-color: #241F38;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .name {
+      font-family: 'Koulen', cursive;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .footer hr {
+      color: #fff;
+      width: 40vw;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <h1 class="title text-center">MENTAL ILLNESS</h1>
+    <hr class="her">
+  </header>
+  <section>
+    <div class="intro">
+      <div class="intro-left">
+        <h2 class="text-left">What is Mental Illness?</h2>
+        <p>Mental illnesses are health conditions involving changes in emotion, thinking or behavior (or a combination
+          of
+          these). Mental illnesses are associated with distress and/or problems functioning in social, work or family
+          activities. Mental illness is common. In a given year:
+        <ul>
+          <li> Nearly one in five (19%) U.S. adults experience some form of mental illness..</li>
+          <li>One in 24 (4.1%) has a serious mental illness*.</li>
+          <li>One in 12 (8.5%) has a diagnosable substance use disorder.</li>
+        </ul>
+        Mental illness is treatable. The vast majority of individuals with mental illness continue to function in
+        their daily lives. <br> A mental health condition isn’t the result of one event. Research suggests multiple,
+        linking
+        causes. Genetics, environment and lifestyle influence whether someone develops a mental health condition. A
+        stressful job or home life makes some people more susceptible, as do traumatic life events. Biochemical
+        processes and circuits and basic brain structure may play a role, too. <br>
+
+        None of this means that you’re broken or that you, or your family, did something “wrong.” Mental illness is no
+        one’s fault. And for many people, recovery — including meaningful roles in social life, school and work — is
+        possible, especially when you start treatment early and play a strong role in your own recovery process.</p>
+      </div>
+      <div class="intro-right">
+        <img src="/images/mental-health.jpg" class="animated bounce infinte" alt="brain_art" height="400px"
+          width="auto">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wheel-container">
+      <div class="wheel">
+        <div class="wheel-heading">
+          <span>Types of <br> Mental <br> Illness</span>
+        </div>
+        <div class="nav-menu hide">
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" title="Anxiety Disorders"
+              data-bs-content="We all experience anxiety. For example, speaking in front of a group can make us anxious, but that anxiety also motivates us to prepare and practice. Driving in heavy traffic is another common source of anxiety, but it helps keep us alert and cautious to avoid accidents. However, when feelings of intense fear and distress become overwhelming and prevent us from doing everyday activities, an anxiety disorder may be the cause.">Anxiety
+              Disorders</a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Attention deficit hyperactivity disorder (ADHD) is a condition in which characterized by inattention, hyperactivity and impulsivity. ADHD is most commonly diagnosed in young people. An estimated 8.8% of children aged 4-17 have ADHD. While ADHD is usually diagnosed in childhood, it does not only affect children. An estimated 4.4% of adults aged 18-44 have ADHD."
+              title="Attention Deficit Hyperactivity Disorder (ADHD)">
+              Attention Deficit Hyperactivity Disorder (ADHD)
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Bipolar disorder is a mental illness that causes dramatic shifts in a person’s mood, energy and ability to think clearly. People with bipolar experience high and low moods—known as mania and depression—which differ from the typical ups-and-downs most people experience."
+              title="Bipolar Disorder">
+              Bipolar Disorder
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Borderline Personality Disorder (BPD) is a condition characterized by difficulties regulating emotion. This means that people who experience BPD feel emotions intensely and for extended periods of time, and it is harder for them to return to a stable baseline after an emotionally triggering event."
+              title="Borderline Personality Disorder">
+              Borderline Personality Disorder
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Depressive disorder, frequently referred to simply as depression, is more than just feeling sad or going through a rough patch. It’s a serious mental health condition that requires understanding and medical care. Left untreated, depression can be devastating for those who have it and their families. Fortunately, with early detection, diagnosis and a treatment plan consisting of medication, psychotherapy and healthy lifestyle choices, many people can and do get better."
+              title="Depression">
+              Depression
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Dissociative disorders are characterized by an involuntary escape from reality characterized by a disconnection between thoughts, identity, consciousness and memory. People from all age groups and racial, ethnic and socioeconomic backgrounds can experience a dissociative disorder."
+              title="Dissociative Disorders">
+              Dissociative Disorders
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="When you become so preoccupied with food and weight issues that you find it harder and harder to focus on other aspects of your life, it may be an early sign of an eating disorder. Without treatment, eating disorders can take over a person’s life and lead to serious, potentially fatal medical complications. Eating disorders can affect people of any age or gender, but rates are higher among women. Symptoms commonly appear in adolescence and young adulthood. "
+              title="Eating Disorders">
+              Eating Disorders
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Obsessive-compulsive disorder (OCD) is characterized by repetitive, unwanted, intrusive thoughts (obsessions) and irrational, excessive urges to do certain actions (compulsions). Although people with OCD may know that their thoughts and behavior don't make sense, they are often unable to stop them."
+              title="Obsessive-Compulsive Disorder">
+              Obsessive-Compulsive Disorder
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Traumatic events—such as an accident, assault, military combat or natural disaster—can have lasting effects on a person’s mental health. While many people will have short term responses to life-threatening events, some will develop longer term symptoms that can lead to a diagnosis of Posttraumatic Stress Disorder (PTSD). PTSD symptoms often co-exist with other conditions such as substance use disorders, depression and anxiety. A comprehensive medical evaluation resulting in an individualized treatment plan is optimal."
+              title="Post Traumatic Stress Disorder (PTSD)">
+              Post Traumatic Stress Disorder (PTSD)
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Most people think of psychosis as a break with reality. In a way it is. Psychosis is characterized as disruptions to a person’s thoughts and perceptions that make it difficult for them to recognize what is real and what isn’t. These disruptions are often experienced as seeing, hearing and believing things that aren’t real or having strange, persistent thoughts, behaviors and emotions. While everyone’s experience is different, most people say psychosis is frightening and confusing."
+              title="Psychosis">
+              Psychosis
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Schizoaffective disorder is a chronic mental health condition characterized primarily by symptoms of schizophrenia, such as hallucinations or delusions, and symptoms of a mood disorder, such as mania and depression."
+              title="Schizoaffective Disorder">
+              Schizoaffective Disorder
+            </a>
+          </div>&nbsp;|&nbsp;
+          <div class="menu">
+            <a data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+              data-bs-content="Schizophrenia is a serious mental illness that interferes with a person’s ability to think clearly, manage emotions, make decisions and relate to others. It is a complex, long-term medical illness. The exact prevalence of schizophrenia is difficult to measure, but estimates range from 0.25% to 0.64% of U.S. adults. Although schizophrenia can occur at any age, the average age of onset tends to be in the late teens to the early 20s for men, and the late 20s to early 30s for women. It is uncommon for schizophrenia to be diagnosed in a person younger than 12 or older than 40. It is possible to live well with schizophrenia."
+              title="Schizophrenia">
+              Schizophrenia
+            </a>
+          </div>
+        </div>
+      </div>
+      <span class="click-here">&#8666;&nbsp;Click Here</span>
+    </div>
+  </section>
+  <div class="info">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true"
+      data-bs-wrap="true" data-bs-interval="30000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Anxiety Disorders</h1>
+            <p>We all experience anxiety. For example, speaking in front of a group can make us anxious, but that
+              anxiety also motivates us to prepare and practice. Driving in heavy traffic is another common source of
+              anxiety, but it helps keep us alert and cautious to avoid accidents. However, when feelings of intense
+              fear and distress become overwhelming and prevent us from doing everyday activities, an anxiety disorder
+              may be the cause.</p>
+            <p>Anxiety disorders are the most common mental health concern in the United States. Over 40 million adults
+              in the U.S. (19.1%) have an anxiety disorder. Meanwhile, approximately 7% of
+              children aged 3-17&nbsp;experience issues with anxiety each year.&nbsp;Most people develop symptoms before
+              age 21.</p>
+            <h2>Symptoms</h2>
+            <p>Anxiety disorders are a group of related conditions, each having unique symptoms. However, all anxiety
+              disorders have one thing in common: persistent, excessive fear or worry in situations that are not
+              threatening. People typically experience one or more of the following symptoms:</p>
+            <p>Emotional symptoms:</p>
+            <ul>
+              <li>Feelings of apprehension or dread</li>
+              <li>Feeling tense or jumpy</li>
+              <li>Restlessness or irritability</li>
+              <li>Anticipating the worst and being watchful for signs of danger</li>
+            </ul>
+            <p>Physical symptoms:</p>
+            <ul>
+              <li>Pounding or racing heart and shortness of breath</li>
+              <li>Sweating, tremors and twitches</li>
+              <li>Headaches, fatigue and insomnia</li>
+              <li>Upset stomach, frequent urination or diarrhea</li>
+            </ul>
+            <h2>Types of Anxiety Disorders</h2>
+            <p>There are many types of anxiety disorders, each with different symptoms. The most common types of anxiety
+              disorders include:</p>
+            <h3>Generalized Anxiety Disorder (GAD)</h3>
+            <p>GAD produces chronic, exaggerated worrying about everyday life. This worrying can consume hours each day,
+              making it hard to concentrate or finish daily tasks. A person with GAD may become exhausted by worry and
+              experience headaches, tension or nausea.</p>
+            <h3>Social Anxiety Disorder</h3>
+            <p>More than shyness, this disorder causes intense fear about social interaction, often driven by irrational
+              worries about humiliation (e.g. saying something stupid or not knowing what to say). Someone with social
+              anxiety disorder may not take part in conversations, contribute to class discussions or offer their ideas,
+              and may become isolated. Panic attacks are a common reaction to anticipated or forced social interaction.
+            </p>
+            <h3>Panic Disorder</h3>
+            <p>This disorder is characterized by panic attacks and sudden feelings of terror sometimes striking
+              repeatedly and without warning. Often mistaken for a heart attack, a panic attack causes powerful physical
+              symptoms including chest pain, heart palpitations, dizziness, shortness of breath and stomach upset. Many
+              people will go to desperate measures to avoid an attack, including social isolation.</p>
+            <h3>Phobias</h3>
+            <p>We all tend to avoid certain things or situations that make us uncomfortable or even fearful. But for
+              someone with a phobia, certain places, events or objects create powerful reactions of strong, irrational
+              fear. Most people with specific phobias have several things that can trigger those reactions; to avoid
+              panic, they will work hard to avoid their triggers. Depending on the type and number of triggers, attempts
+              to control fear can take over a person&rsquo;s life.</p>
+            <p>Other anxiety disorders include:</p>
+            <ul>
+              <li>Agoraphobia</li>
+              <li>Selective mutism</li>
+              <li>Separation anxiety disorder</li>
+              <li>Substance/medication-induced anxiety disorder, involving intoxication or withdrawal or medication
+                treatment</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>Scientists believe that many factors combine to cause anxiety disorders:</p>
+            <ul>
+              <li><strong>Genetics.</strong>&nbsp; Studies support the evidence that anxiety disorders &ldquo;run in
+                families,&rdquo; as some families have a higher-than-average amount of anxiety disorders among
+                relatives.</li>
+              <li><strong>Environment.&nbsp;</strong>A stressful or traumatic event such as abuse, death of a loved one,
+                violence or prolonged illness is often linked to the development of an anxiety disorder.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>Physical symptoms of an anxiety disorder can be easily confused with other medical conditions, like heart
+              disease or hyperthyroidism. Therefore, a doctor will likely perform an evaluation&nbsp;involving a
+              physical examination, an interview and lab tests. After ruling out an underlying physical illness, a
+              doctor may refer a person to a mental health professional for evaluation.</p>
+            <p>Using the&nbsp;Diagnostic and Statistical Manual of Mental Disorders (DSM)&nbsp;a mental health
+              professional is able to identify the specific type of anxiety disorder causing symptoms as well as any
+              other possible disorders that may be involved. Tackling all disorders through comprehensive treatment is
+              the best recovery strategy.</p>
+            <h2>Treatment</h2>
+            <p>Different anxiety disorders have their own distinct sets of symptoms. This means that each type of
+              anxiety disorder also has its own treatment plan. But there are common types of treatment that are
+              used.&nbsp;</p>
+            <ul>
+              <li>Psychotherapy,&nbsp;including cognitive behavioral therapy</li>
+              <li>Medications,&nbsp;including antianxiety medications and antidepressants</li>
+              <li>Complementary health approaches, including stress and relaxation techniques</li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>Anxiety disorders can occur along with other mental health conditions, and they can often make related
+              conditions worse. So, talk with a mental health care professional if you are experiencing anxiety and any
+              of the following:</p>
+            <ul>
+              <li>Depression</li>
+              <li>Substance Use</li>
+              <li>Attention Deficit Hyperactivity Disorder (ADHD)</li>
+              <li>Eating Disorders</li>
+              <li>Trouble Sleeping</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Attention Deficit Hyperactivity Disorder(ADHD)</h1>
+            <p>Attention deficit hyperactivity disorder (ADHD) is a condition in which characterized by inattention,
+              hyperactivity and impulsivity. ADHD is most commonly diagnosed in young people. An estimated 8.8% of
+              children&nbsp;aged 4-<span style="line-height: 1.6;">17&nbsp;have ADHD. While ADHD is usually diagnosed in
+                childhood, it does not only affect children. An estimated 4.4% of adults aged 18-44 have ADHD.</span>
+            </p>
+            <p>With treatment,&nbsp;people with ADHD can be successful in school, work and lead productive lives.
+              Researchers are using new tools such as brain imaging to better understand the condition and to find more
+              effective ways to treat and prevent ADHD.</p>
+            <h2>Symptoms</h2>
+            <p>While some behaviors associated with ADHD are &quot;normal&quot; and not a cause for concern to most
+              people, someone with ADHD will have trouble controlling these behaviors and will show them much more
+              frequently and for longer than 6 months.</p>
+            <p>Signs of inattention include:</p>
+            <ul>
+              <li>Becoming easily distracted, and jumping from activity to activity.</li>
+              <li>Becoming bored with a task quickly.</li>
+              <li>Difficulty focusing attention or completing a single task or activity.</li>
+              <li>Trouble completing or turning in homework assignments.</li>
+              <li>Losing things such as school supplies or toys.</li>
+              <li>Not listening or paying attention when spoken to.</li>
+              <li>Daydreaming or wandering with lack of motivation.</li>
+              <li>Difficulty processing information quickly.</li>
+              <li>Struggling to follow directions.</li>
+            </ul>
+            <p>Signs of hyperactivity include:</p>
+            <ul>
+              <li>Fidgeting and squirming, having trouble sitting still.</li>
+              <li>Non-stop talking.</li>
+              <li>Touching or playing with everything.</li>
+              <li>Difficulty doing quiet tasks or activities.</li>
+            </ul>
+            <p>Signs of impulsivity include:</p>
+            <ul>
+              <li>Impatience.</li>
+              <li>Acting without regard for consequences, blurting things out.</li>
+              <li>Difficulty taking turns, waiting or sharing.</li>
+              <li>Interrupting others.</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>There are several factors believed to contribute to ADHD:</p>
+            <ul>
+              <li><strong>Genetics.</strong> Research shows that genes may be a large contributor to ADHD. ADHD often
+                runs in families and some trends in specific brain areas that contribute to attention.</li>
+              <li><strong>Environmental factors.</strong> Studies show a link between cigarette smoking and alcohol use
+                during pregnancy and children who have ADHD. Exposure to lead as a child has also been shown to increase
+                the likelihood of ADHD in children.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>ADHD occurs in both children and adults, but is most often and diagnosed in childhood. Getting a
+              diagnosis for ADHD can sometimes be difficult because the symptoms of ADHD are similar to typical behavior
+              in most young children. Teachers are often the first to notice ADHD symptoms because they see children in
+              a learning environment with peers every day.</p>
+            <p>There is no one single test that can diagnose a child with ADHD, so meet with a doctor or mental health
+              professional to gather all the necessary information to make a diagnosis. The goal is to rule out any
+              outside causes for symptoms, such as environmental changes, difficulty in school, medical problems and
+              ensure that a child is otherwise healthy.</p>
+            <h2>Treatment</h2>
+            <p>ADHD is managed and treated in several&nbsp;<span style="line-height: 1.6;">ways: </span></p>
+            <ul>
+              <li><span style="line-height: 1.6;"><strong>Medications</strong>,</span><span style="line-height: 1.6;">
+                  including stimulants, nonstimulants and antidepressants</span></li>
+              <li><strong><span style="line-height: 1.6;">Behavioral therapy</span></strong></li>
+              <li><span style="line-height: 1.6;"><strong>Self-management, education programs and assistance</strong>
+                  through schools or work or alternative treatment approaches</span></li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>Around two-thirds of children with ADHD also have another condition. Many adults are also
+              impacted by the symptoms of another condition. Common conditions associated with ADHD include the
+              following.</p>
+            <ul>
+              <li>Learning disabilities</li>
+              <li>Oppositional defiant disorder: refusal to accept directions or authority from adults or others</li>
+              <li>Conduct disorder, persistent destructive or violent behaviors</li>
+              <li>Anxiety and
+                depression</li>
+              <li>Obsessive-compulsive disorder</li>
+              <li>Bipolar disorder</li>
+              <li>Tourette&#39;s syndrome</li>
+              <li>Sleep disorders</li>
+              <li>Bed-wetting</li>
+              <li>Substance use disorders/Dual Diagnosis</li>
+            </ul>
+            <p>Symptoms from other conditions make treating ADHD more difficult. Talking to a skilled professional to
+              help establish an accurate diagnosis can help increase the effectiveness of treatment.</p>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Bipolar Disorder</h1>
+            <p>Bipolar disorder is a mental illness that causes dramatic shifts in a person&rsquo;s mood, energy and
+              ability to think clearly. People with bipolar experience high and low moods&mdash;known as mania and
+              depression&mdash;which differ from the typical ups-and-downs most people experience.</p>
+            <p>The average age-of-onset is about 25, but it can occur in the teens, or more uncommonly, in childhood.
+              The condition affects men and women equally, with about 2.8%
+              of the U.S. population diagnosed with bipolar disorder and nearly 83%
+              of cases classified as severe.</p>
+            <p>If left untreated, bipolar disorder usually worsens. However, with a good treatment plan including
+              psychotherapy, medications, a healthy lifestyle, a regular schedule and early identification of symptoms,
+              many people live well with the condition.</p>
+            <h2>Symptoms</h2>
+            <p>Symptoms and their severity can vary. A person with bipolar disorder may have distinct manic or depressed
+              states but may also have extended periods&mdash;sometimes years&mdash;without symptoms. A person can also
+              experience both extremes simultaneously or in rapid sequence.</p>
+            <p>Severe bipolar episodes of mania or depression may include psychotic symptoms such as hallucinations or
+              delusions. Usually, these psychotic symptoms mirror a person&rsquo;s extreme mood. People with bipolar
+              disorder who have psychotic symptoms can be wrongly diagnosed as having schizophrenia.</p>
+            <p><strong>Mania.</strong>&nbsp;To be diagnosed with bipolar disorder, a person must have experienced at
+              least one episode of mania or hypomania. Hypomania is a milder form of mania that doesn&rsquo;t include
+              psychotic episodes. People with hypomania can often function well in social situations or at work. Some
+              people with bipolar disorder will have episodes of mania or hypomania many times throughout their life;
+              others may experience them only rarely.</p>
+            <p>Although someone with bipolar may find an elevated mood of mania appealing&mdash;especially if it occurs
+              after depression&mdash;the &ldquo;high&rdquo; does not stop at a comfortable or controllable level. Moods
+              can rapidly become more irritable, behavior more unpredictable and judgment more impaired. During periods
+              of mania, people frequently behave impulsively, make reckless decisions and take unusual risks.</p>
+            <p>Most of the time, people in manic states are unaware of the negative consequences of their actions. With
+              bipolar disorder, suicide
+              is an ever-present danger because some people become suicidal even in manic states. Learning from prior
+              episodes what kinds of behavior signals &ldquo;red flags&rdquo; of manic behavior can help manage the
+              symptoms of the illness.</p>
+            <p><strong>Depression</strong>.&nbsp;The lows of bipolar depression are often so debilitating that people
+              may be unable to get out of bed. Typically, people experiencing a depressive episode have difficulty
+              falling and staying asleep, while others sleep far more than usual. When people are depressed, even minor
+              decisions such as what to eat for dinner can be overwhelming. They may become obsessed with feelings of
+              loss, personal failure, guilt or helplessness; this negative thinking can lead to thoughts of suicide.</p>
+            <p>The depressive symptoms that obstruct a person&rsquo;s ability to function must be present nearly every
+              day for a period of at least two weeks for a diagnosis. Depression associated with bipolar disorder may be
+              more difficult to treat and require a customized treatment plan.</p>
+            <h2>Causes</h2>
+            <p>Scientists have not yet discovered a single cause of bipolar disorder. Currently, they believe several
+              factors may contribute, including:</p>
+            <ul>
+              <li><strong>Genetics.</strong> The chances of developing bipolar disorder are increased if a child&rsquo;s
+                parents or siblings have the disorder. But the role of genetics is not absolute: A child from a family
+                with a history of bipolar disorder may never develop the disorder. Studies of identical twins have found
+                that, even if one twin develops the disorder, the other may not.</li>
+              <li><strong>Stress</strong>. A stressful event such as a death in the family, an illness, a difficult
+                relationship, divorce or financial problems can trigger a manic or depressive episode. Thus, a
+                person&rsquo;s handling of stress may also play a role in the development of the illness.</li>
+              <li><strong>Brain structure</strong> <strong>and function</strong>. Brain scans cannot diagnose bipolar
+                disorder, yet researchers have identified subtle differences in the average size or activation of some
+                brain structures in people with bipolar disorder.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>To diagnose bipolar disorder, a doctor may perform a physical examination, conduct an interview and order
+              lab tests. While bipolar disorder cannot be seen on a blood test or body scan, these tests can help rule
+              out other illnesses that can resemble the disorder, such as hyperthyroidism. If no other illnesses (or
+              medicines such as steroids) are causing the symptoms, the doctor may recommend mental health care.</p>
+            <p>To be diagnosed with bipolar disorder, a person must have experienced at least one episode of mania or
+              hypomania. Mental health care professionals use the&nbsp;Diagnostic and Statistical Manual of Mental
+              Disorders&nbsp;(DSM) to diagnose the &ldquo;type&rdquo; of bipolar disorder a person may be experiencing.
+              To determine what type of bipolar disorder a person has, mental health care professionals assess the
+              pattern of symptoms and how impaired the person is during their most severe episodes.</p>
+            <h2>Four Types of Bipolar Disorder</h2>
+            <ol>
+              <li><strong>Bipolar I Disorder</strong>&nbsp;is an illness in which people have experienced one or more
+                episodes of mania. Most people diagnosed with bipolar I will have episodes of both mania and depression,
+                though an episode of depression is not necessary for a diagnosis. To be diagnosed with bipolar I, a
+                person&rsquo;s manic episodes must last at least seven days or be so severe that hospitalization is
+                required.</li>
+              <br />
+              <li value="2"><strong>Bipolar II Disorder</strong>&nbsp;is a subset of bipolar disorder in which people
+                experience depressive episodes shifting back and forth with hypomanic episodes, but never a
+                &ldquo;full&rdquo; manic episode.</li>
+              <br />
+              <li value="3"><strong>Cyclothymic Disorder or Cyclothymia</strong> is a chronically unstable mood state in
+                which people experience hypomania and mild depression for at least two years. People with cyclothymia
+                may have brief periods of normal mood, but these periods last less than eight weeks.</li>
+              <br />
+              <li value="4"><strong>Bipolar Disorder, &ldquo;other specified&rdquo; and
+                  &ldquo;unspecified&rdquo;</strong>&nbsp;is when a person does not meet the criteria for bipolar I, II
+                or cyclothymia but has still experienced periods of clinically significant abnormal mood elevation.</li>
+            </ol>
+            <h2>Treatment</h2>
+            <p>Bipolar disorder is treated and managed in several ways:</p>
+            <ul>
+              <li><strong>Psychotherapy</strong>,&nbsp;such as&nbsp;cognitive behavioral therapy and family-focused
+                therapy.</li>
+              <li><strong>Medications</strong>,&nbsp;such as&nbsp;mood stabilizers, antipsychotic medications and, to a
+                lesser extent, antidepressants.</li>
+              <li><strong>Self-management strategies</strong><em>, </em>like education and recognition of an
+                episode&rsquo;s early symptoms.</li>
+              <li><strong>Complementary health approaches</strong><em>,</em>&nbsp;such as aerobic exercise meditation,
+                faith and prayer can support, but not replace, treatment.</li>
+            </ul>
+            <p>The largest research project to assess what treatment methods work for people with bipolar disorder is
+              the Systematic
+              Treatment Enhancement for Bipolar Disorder, otherwise known as Step-BD. Step-BD followed over 4,000
+              people diagnosed with bipolar disorder over time with different treatments.</p>
+            <h2>Related Conditions</h2>
+            <p>People with bipolar disorder can also experience:</p>
+            <ul>
+              <li>Anxiety</li>
+              <li>Attention-deficit hyperactivity disorder (ADHD)</li>
+              <li>Posttraumatic stress disorder (PTSD)
+              </li>
+              <li>Substance use disorders/dual
+                diagnosis</li>
+            </ul>
+            <p>People with bipolar disorder and psychotic symptoms can be wrongly diagnosed with schizophrenia. Bipolar
+              disorder can
+              be also misdiagnosed as Borderline Personality Disorder (BPD).
+            </p>
+            <p>These other illnesses and misdiagnoses can make it hard to treat bipolar disorder. For example, the
+              antidepressants used to treat OCD and the stimulants used to treat ADHD may worsen symptoms of bipolar
+              disorder and may even trigger a manic episode. If you have more than one condition (called co-occurring
+              disorders), be sure to get a treatment plan that works for you.</p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Borderline Personality Disorder</h1>
+            <p>Borderline Personality Disorder (BPD) is a condition characterized by difficulties regulating emotion.
+              This means that people who experience BPD feel emotions intensely and for extended periods of time, and it
+              is harder for them&nbsp;to return to a stable baseline&nbsp;after an emotionally triggering event.</p>
+            <p>This difficulty can lead to impulsivity, poor self-image, stormy relationships and intense emotional
+              responses to stressors. Struggling with self-regulation can also result in dangerous behaviors such as
+              self-harm (e.g. cutting).</p>
+            <p>It&rsquo;s estimated that 1.4%
+              of the adult U.S. population experiences BPD. Nearly 75% of people diagnosed with BPD are women. Recent
+              research suggests that men may be equally affected by BPD, but are commonly misdiagnosed with PTSD or
+              depression.&nbsp;</p>
+            <h2>Symptoms</h2>
+            <p>People with BPD experience wide mood swings and can feel a great sense of instability and insecurity.
+              According to the Diagnostic and Statistical Manual diagnostic framework, some key signs and symptoms may
+              include:</p>
+            <ul>
+              <li>Frantic efforts to avoid real or imagined abandonment by friends and family.</li>
+              <li>Unstable personal relationships that alternate between idealization (&ldquo;I&rsquo;m so in
+                love!&rdquo;) and devaluation (&ldquo;I hate her&rdquo;). This is also sometimes known as
+                &quot;splitting.&quot;</li>
+              <li>Distorted and unstable self-image, which affects moods, values, opinions, goals and relationships.
+              </li>
+              <li>Impulsive behaviors that can have dangerous outcomes, such as excessive spending, unsafe sex, reckless
+                driving, or misuse or&nbsp;overuse of substances.</li>
+              <li>Self-harming behavior including suicidal threats or attempts.</li>
+              <li>Periods of intense depressed mood, irritability&nbsp;or anxiety lasting a few hours to a few days.
+              </li>
+              <li>Chronic feelings of boredom or emptiness.</li>
+              <li>Inappropriate, intense or uncontrollable anger&mdash;often followed by shame and guilt.</li>
+              <li>Dissociative feelings&mdash;disconnecting from your thoughts or sense of identity or &ldquo;out of
+                body&rdquo; type of feelings&mdash;and stress-related&nbsp;paranoid thoughts. Severe cases of stress can
+                also lead to brief psychotic episodes.</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>The causes of BPD are not fully understood, but scientists agree that it is the result of a combination
+              of factors, including:</p>
+            <ul>
+              <li><strong>Genetics.</strong> While no specific gene or gene profile has been shown to directly cause
+                BPD, research suggests that people who have a close family member&nbsp;with BPD&nbsp;may be at a higher
+                risk of developing the disorder.&nbsp;</li>
+              <li><strong>Environmental factors.</strong> People who experience traumatic life events&mdash;such as
+                physical or sexual abuse during childhood or neglect and separation from parents&mdash;are at increased
+                risk of developing BPD.</li>
+              <li><strong>Brain function.</strong> The emotional regulation system may be different in people with BPD,
+                suggesting that there is a neurological basis for some of the symptoms. Specifically, the portions of
+                the brain that control emotions and decision-making/judgment may not communicate optimally with one
+                another.&nbsp;</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>There is no definitive medical test to diagnose BPD, and a diagnosis is not based on one specific sign or
+              symptom. BPD is best diagnosed by a mental health professional following a comprehensive clinical
+              interview that may include talking with previous clinicians, reviewing previous medical evaluations and,
+              when appropriate, interviews with friends and family.</p>
+            <h2>Treatment</h2>
+            <p>An effective treatment plan should include your preferences while also addressing any other co-existing
+              conditions you may have. Examples of treatment options include psychotherapy; medications; and group, peer
+              and family support. The overarching goal of treatment is for a person with BPD to increasingly self-direct
+              their own treatment plan as they learn what works and what doesn&rsquo;t.&nbsp;</p>
+            <ul>
+              <li>Psychotherapy&mdash;such as dialectical behavioral therapy (DBT), cognitive
+                behavioral therapy (CBT) and psychodynamic psychotherapy&mdash;is the first line of choice for BPD.
+                Learning ways to cope with emotional dysregulation in a therapeutic setting is often the key to
+                long-term improvement for those experiencing BPD.</li>
+              <li>Medications may be instrumental to a treatment plan, but there is&nbsp;no
+                one&nbsp;medication specifically made to treat the core symptoms of BPD. Rather, several medications can
+                be used off-label to treat various symptoms.&nbsp;For example, mood stabilizers and antidepressants help
+                with mood swings and dysphoria. And&nbsp;for some, low-dose antipsychotic medication may help control
+                symptoms such as disorganized thinking.</li>
+              <li><strong>Short-term hospitalization</strong> may be necessary during times of extreme stress,
+                and/or&nbsp;impulsive or suicidal behavior to ensure safety.</li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>BPD can be difficult to diagnose and treat, and successful treatment includes addressing any other
+              conditions a person might have. Many with BPD also experience additional conditions like:</p>
+            <ul>
+              <li>Anxiety Disorders</li>
+              <li>Posttraumatic Stress Disorder</li>
+              <li>Bipolar Disorder</li>
+              <li>Depression</li>
+              <li>Eating Disorders (notably bulimia nervosa)</li>
+              <li>Substance Use&nbsp;Disorders / Dual Diagnosis</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Depression</h1>
+            <p>Depressive disorder, frequently referred to simply as depression, is more than just feeling sad or going
+              through a rough patch. It&rsquo;s a serious mental health condition that requires understanding and
+              medical
+              care. Left untreated, depression can be devastating for those who have it and their families. Fortunately,
+              with early detection, diagnosis and a treatment plan consisting of medication, psychotherapy and healthy
+              lifestyle choices, many people can and do get better.</p>
+            <p>Some will only experience one depressive episode in a lifetime, but for most, depressive disorder recurs.
+              Without treatment, episodes may last a few months to several years.</p>
+            <p>About 21&nbsp;million&nbsp;U.S. adults&mdash;8.4% of the population&mdash;had at least one major
+              depressive episode in 2020.
+              People
+              of all ages and all racial, ethnic and socioeconomic backgrounds experience depression, but it does affect
+              some groups more than others.</p>
+            <h2>Symptoms</h2>
+            <p>Depression can present different symptoms, depending on the person. But for most people, depressive
+              disorder changes how they function day-to-day, and typically for more than two weeks. Common symptoms
+              include:</p>
+            <ul>
+              <li>Changes in sleep</li>
+              <li>Changes in appetite</li>
+              <li>Lack of concentration</li>
+              <li>Loss of energy</li>
+              <li>Lack of interest in activities</li>
+              <li>Hopelessness or guilty thoughts</li>
+              <li>Changes in movement (less activity or agitation)</li>
+              <li>Physical aches and pains</li>
+              <li>Suicidal thoughts</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>Depression does not have a single cause. It can be triggered by a life crisis, physical illness or
+              something else&mdash;but it can also occur spontaneously. Scientists believe several factors can
+              contribute
+              to depression:</p>
+            <ul>
+              <li><strong>Trauma</strong>. When people experience trauma at an early age, it can cause long-term changes
+                in how their brains respond to fear and stress. These changes may lead to depression.</li>
+              <li><strong>Genetics</strong>. Mood disorders, such as depression, tend to run in families.</li>
+              <li><strong>Life circumstances</strong>. Marital status, relationship changes, financial standing and
+                where
+                a person lives influence whether a person develops depression.</li>
+              <li><strong>Brain changes</strong>. Imaging studies have shown that the frontal lobe of the brain becomes
+                less active when a person is depressed. Depression is also associated with changes in how the pituitary
+                gland and hypothalamus respond to hormone stimulation.</li>
+              <li><strong>Other medical conditions</strong>. People who have a history of sleep disturbances, medical
+                illness, chronic pain, anxiety and attention-deficit hyperactivity disorder (ADHD) are more likely to
+                develop depression. Some medical syndromes (like hypothyroidism) can mimic depressive disorder. Some
+                medications can also cause symptoms of depression.</li>
+              <li><strong>Drug and alcohol misuse</strong>. Adults with a substance use disorder are at significantly
+                higher risk for experiencing a major depressive episode.&nbsp;Co-occurring disorders
+                require&nbsp;coordinated treatment for both conditions, as alcohol can worsen depressive symptoms.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>To be diagnosed with depressive disorder, a person must have experienced a depressive episode lasting
+              longer than two weeks. The symptoms of a depressive episode include:</p>
+            <ul>
+              <li>Loss of interest or loss of pleasure in all activities</li>
+              <li>Change in appetite or weight&nbsp;</li>
+              <li>Sleep disturbances</li>
+              <li>Feeling agitated or feeling slowed down</li>
+              <li>Fatigue</li>
+              <li>Feelings of low self-worth, guilt or shortcomings</li>
+              <li>Difficulty concentrating or making decisions</li>
+              <li>Suicidal thoughts or intentions</li>
+            </ul>
+            <h2>Treatments</h2>
+            <p>Although depressive disorder can be a devastating illness, it often responds to treatment. The key is to
+              get a specific evaluation and treatment plan. Safety planning is important for individuals who have
+              suicidal
+              thoughts. After an assessment rules out medical and other possible causes, a patient-centered treatment
+              plans can include any or a combination of the following:</p>
+            <ul>
+              <li><strong>Psychotherapy</strong>&nbsp;including cognitive behavioral therapy, family-focused therapy and
+                interpersonal therapy.</li>
+              <li><strong>Medications</strong> including antidepressants, mood stabilizers and antipsychotic
+                medications.
+              </li>
+              <li><strong>Exercise </strong>can help with prevention and mild-to-moderate symptoms.</li>
+              <li><strong>Brain stimulation therapies</strong> can be tried if psychotherapy and/or medication are not
+                effective. These include electroconvulsive therapy (ECT) for depressive disorder with psychosis or
+                repetitive transcranial magnetic stimulation (rTMS) for severe depression.</li>
+              <li><strong>Light therapy</strong>, which uses a light box to expose a person to full spectrum light in an
+                effort to regulate the hormone melatonin.</li>
+              <li><strong>Alternative approaches</strong> including acupuncture, meditation, faith and nutrition can be
+                part of a comprehensive treatment plan.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Dissociative Disorder</h1>
+            <p>Dissociative disorders are characterized by an involuntary escape from reality characterized by a
+              disconnection between thoughts, identity, consciousness and memory. People from all age groups and racial,
+              ethnic and socioeconomic backgrounds can experience a dissociative disorder.</p>
+            <p>Up to 75% of
+              people&nbsp;experience at least one depersonalization/derealization episode in their lives, with only 2%
+              meeting the full criteria for
+              chronic episodes. Women are more likely than men to be diagnosed with a&nbsp;dissociative disorder.&nbsp;
+            </p>
+            <p>The symptoms of a dissociative disorder usually first develop as a response to a traumatic event, such as
+              abuse or military combat, to keep those memories under control. Stressful situations can worsen symptoms
+              and
+              cause problems with functioning in everyday activities. However, the symptoms a person experiences will
+              depend on the type of dissociative disorder that a person has.</p>
+            <p>Treatment for dissociative disorders often involves psychotherapy and medication. Though finding an
+              effective treatment plan can be difficult, many people are able to live healthy and productive lives.</p>
+            <h2>Symptoms</h2>
+            <p>Symptoms and signs of dissociative disorders include:</p>
+            <ul>
+              <li>Significant memory loss of specific times, people and events</li>
+              <li>Out-of-body experiences, such as feeling as though you are watching a movie of yourself</li>
+              <li>Mental health problems such as depression, anxiety and thoughts of suicide</li>
+              <li>A sense of detachment from your emotions, or emotional numbness</li>
+              <li>A lack of a sense of self-identity</li>
+            </ul>
+            <p>The symptoms of dissociative disorders depend on the type of disorder that has been diagnosed. There are
+              three types of dissociative disorders defined in the <em>Diagnostic and Statistical Manual of Mental
+                Disorders</em> (DSM):</p>
+            <ul>
+              <li><strong>Dissociative Amnesia.</strong> The main symptom is difficulty remembering important
+                information
+                about one&rsquo;s self. Dissociative amnesia may surround a particular event, such as combat or abuse,
+                or
+                more rarely, information about identity and life history. The onset for an amnesic episode is usually
+                sudden, and an episode can last minutes, hours, days, or, rarely, months or years. There is no average
+                for
+                age onset or percentage, and a person may experience multiple episodes throughout her life.</li>
+              <li><strong>Depersonalization disorder. </strong>This disorder involves ongoing feelings of detachment
+                from
+                actions, feelings, thoughts and sensations as if they are watching a movie (depersonalization).
+                Sometimes
+                other people and things may feel like people and things in the world around them are unreal
+                (derealization). A person may experience depersonalization, derealization or both. Symptoms can last
+                just
+                a matter of moments or return at times over the years. The average onset age is 16, although
+                depersonalization episodes can start anywhere from early to mid childhood. Less than 20% of people with
+                this disorder start experiencing episodes after the age of 20.</li>
+              <li><strong>Dissociative identity disorder.&nbsp;</strong>Formerly known as multiple personality disorder,
+                this disorder is characterized by alternating between multiple identities. A person may feel like one or
+                more voices are trying to take control in their head. Often these identities may have unique names,
+                characteristics, mannerisms and voices. People with DID will experience gaps in memory of every day
+                events, personal information and trauma. Women are more likely to be diagnosed, as they more frequently
+                present with acute dissociative symptoms. Men are more likely to deny symptoms and trauma histories, and
+                commonly exhibit more violent behavior, rather than amnesia or fugue states. This can lead to elevated
+                false negative diagnosis.</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>Dissociative disorders usually develop as a way of dealing with trauma. Dissociative disorders most often
+              form in children exposed to long-term physical, sexual or emotional abuse. Natural disasters and combat
+              can
+              also cause dissociative disorders.</p>
+            <h2>Diagnosis</h2>
+            <p>Doctors diagnose dissociative disorders based on a review of symptoms and personal history. A doctor may
+              perform tests to rule out physical conditions that can cause symptoms such as memory loss and a sense of
+              unreality (for example, head injury, brain lesions or tumors, sleep deprivation or intoxication). If
+              physical causes are ruled out, a mental health specialist is often consulted to make an evaluation.</p>
+            <p>Many features of dissociative disorders can be influenced by a person&rsquo;s cultural background. In the
+              case of dissociative identity disorder and dissociative amnesia, patients may present with unexplained,
+              non-epileptic seizures, paralyses or sensory loss. In settings where possession is part of cultural
+              beliefs,
+              the fragmented identities of a person who has DID may take the form of spirits, deities, demons or
+              animals.
+              Intercultural contact may also influence the characteristics of other identities. For example, a person in
+              India exposed to Western culture may present with an &ldquo;alter&rdquo; who only speaks English. In
+              cultures with highly restrictive social conditions, amnesia is frequently triggered by severe
+              psychological
+              stress such as conflict caused by oppression. Finally, voluntarily induced states of depersonalization can
+              be a part of meditative practices prevalent in many religions and cultures, and should not be diagnosed as
+              a
+              disorder.</p>
+            <h2><strong>Treatment</strong></h2>
+            <p>Dissociative disorders are managed through various therapies including:</p>
+            <ul>
+              <li><strong style="font-size:14px;">Psychotherapies </strong>such as cognitive behavioral therapy (CBT)
+                and
+                dialectical behavioral therapy (DBT)</li>
+              <li><strong style="font-size:14px;">Eye movement desensitization and reprocessing</strong> (EMDR)</li>
+              <li>​<strong>Medications</strong> such as antidepressants can treat symptoms of related
+                conditions</li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>Because dissociative disorders appear on the trauma spectrum, many patients may have conditions
+              associated
+              with trauma, as well as additional trauma-based conditions.</p>
+            <ul>
+              <li>Posttraumatic stress disorder (PTSD)</li>
+              <li>Borderline personality disorder (BPD)</li>
+              <li>Substance use disorders /Dual Diagnosis</li>
+              <li>Depression</li>
+              <li>Anxiety</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Eating Disorders</h1>
+            <p>When you become so preoccupied with food and weight issues that you find it harder and harder to focus on
+              other aspects of your life, it may be an early sign of an eating disorder. Without treatment, eating
+              disorders can take over a person&rsquo;s life and lead to serious, potentially fatal medical
+              complications.
+              Eating disorders can affect people of any age or gender, but rates are higher among women.&nbsp;Symptoms
+              commonly appear in adolescence and young adulthood.&nbsp;</p>
+            <h2>Symptoms</h2>
+            <p>Eating disorders are a group of related conditions that cause serious emotional and physical problems.
+              Each
+              condition involves extreme food and weight issues; however, each has unique symptoms that separate it from
+              the others.</p>
+            <p><strong>Anorexia Nervosa. </strong>People with anorexia will deny themselves food to the point of
+              self-starvation as they obsesses about weight loss. With anorexia, a person will deny hunger and refuse to
+              eat, practice binge eating and purging behaviors or exercise to the point of exhaustion as they attempts
+              to
+              limit, eliminate or &ldquo;burn&rdquo; calories.</p>
+            <p>The emotional symptoms of anorexia include irritability, social withdrawal, lack of mood or emotion, not
+              able to understand the seriousness of the situation, fear of eating in public and obsessions with food and
+              exercise. Often food rituals are developed or whole categories of food are eliminated from the
+              person&rsquo;s diet, out of fear of being &ldquo;fat&quot;.</p>
+            <p>Anorexia can take a heavy physical toll. Very low food intake and inadequate nutrition causes a person to
+              become very thin. The body is forced to slow down to conserve energy causing irregularities or loss of
+              menstruation, constipation and abdominal pain, irregular heart rhythms, low blood pressure, dehydration
+              and
+              trouble sleeping. Some people with anorexia might also use binge eating and purge behaviors, while others
+              only restrict eating.</p>
+            <p><strong>Bulimia Nervosa.</strong> People living with bulimia will feel out of control when binging on
+              very
+              large amounts of food during short periods of time, and then desperately try to rid themselves of the
+              extra
+              calories using forced vomiting, abusing laxatives or excessive exercise. This becomes a repeating cycle
+              that
+              controls many aspects of the person&rsquo;s life and has a very negative effect both emotionally and
+              physically. People living with bulimia are usually normal weight or even a bit overweight.</p>
+            <p>The emotional symptoms of bulimia include low self-esteem overly linked to body image, feelings of being
+              out of control, feeling guilty or shameful about eating and withdrawal from friends and family.</p>
+            <p>Like anorexia, bulimia will inflict physical damage. The binging and purging can severely harm the parts
+              of
+              the body involved in eating and digesting food, teeth are damaged by frequent vomiting, and acid reflux is
+              common. Excessive purging can cause dehydration that effect the body&rsquo;s electrolytes and leads to
+              cardiac arrhythmias, heart failure and even death.</p>
+            <p><strong>Binge Eating Disorder (BED).</strong> A person with BED losses control over their eating and eats
+              a
+              very large amount of food in a short period of time. They may also eat large amounts of food even when he
+              isn&#39;t hungry or after he is uncomfortably full. This causes them to feel embarrassed, disgusted,
+              depressed or guilty about their behavior. A person with BED, after an episode of binge eating, does not
+              attempt to purge or exercise excessively like someone living with anorexia or bulimia would. A person with
+              binge eating disorder may be normal weight, overweight or obese.</p>
+            <h2>Causes</h2>
+            <p>Eating disorders are very complex conditions, and scientists are still learning about the causes.
+              Although
+              eating disorders all have food and weight issues in common, most experts now believe that eating disorders
+              are caused by people attempting to cope with overwhelming feelings and painful emotions by controlling
+              food.
+              Unfortunately, this will eventually damage a person&rsquo;s physical and emotional health, self-esteem and
+              sense of control.</p>
+            <p>Factors that may be involved in developing an eating disorder include:</p>
+            <ul>
+              <li><strong>Genetics.</strong> People with first degree relatives, siblings or parents, with an eating
+                disorder appear to be more at risk of developing an eating disorder, too. This suggests a genetic link.
+                Evidence that the brain chemical, serotonin, is involved also points a contributing genetic and
+                biological
+                factors.</li>
+              <li><strong>Environment.</strong> Cultural pressures that idealize a particular body type place&nbsp;undue
+                pressure on people to&nbsp;achieve unrealistic standards. Popular culture and media images often tie
+                thinness (for women) or muscularity (for men)&nbsp;to popularity, success, beauty and happiness.&nbsp;
+              </li>
+              <li><strong>Peer Pressure.</strong> With young people, this can be a very powerful force.
+                Pressure&nbsp;can
+                appear in the form of teasing, bullying or ridicule because of size or weight. A history of physical or
+                sexual abuse can also contribute to some people developing an eating disorder.</li>
+              <li><strong>Emotional Health.</strong> Perfectionism, impulsive behavior and difficult relationships can
+                all
+                contribute to lowering a person&rsquo;s self-esteem and make them vulnerable to developing eating
+                disorders.</li>
+            </ul>
+            <p>Eating disorders affect all types of people. However there are certain risk factors that put some people
+              at
+              greater risk for developing an eating disorder.</p>
+            <ul>
+              <li><strong>Age.</strong> Eating disorders are much more common during teens and early 20s.</li>
+              <li><strong>Gender. </strong>Women and girls are more likely to have a&nbsp;diagnosed eating disorder.
+                However, it is important to recognize that men and boys may be under-diagnosed due to differences in
+                seeking treatment.&nbsp;&nbsp;</li>
+              <li><strong>Family history.</strong> Having a parent or sibling with an eating disorder increases the
+                risk.
+              </li>
+              <li><strong>Dieting.</strong> Dieting taken too far can become an eating disorder.</li>
+              <li><strong>Changes. </strong>Times of change like going to college, starting a new job, or getting
+                divorced
+                may be a stressor towards developing an eating disorder.</li>
+              <li><strong>Vocations and activities.</strong> Eating disorders are especially common among gymnasts,
+                runners, wrestlers and dancers.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>A person with an eating disorder will have the best recovery outcome if they receive an early diagnosis.
+              If
+              an eating disorder is believed to an issue, a doctor will usually perform a physical examination, conduct
+              an
+              interview and order lab tests. These will help form the diagnosis and check for related medical issues and
+              complications.</p>
+            <p>In addition, a mental health professional will conduct a psychological evaluation. They may ask questions
+              about eating habits, behaviors and beliefs. There may be questions about a patient&#39;s history of
+              dieting,
+              exercise, bingeing and purging.</p>
+            <p>Symptoms must meet the criteria in the <em>Diagnostic and Statistical Manual of Mental Disorders</em>
+              (DSM)
+              in order to warrant a diagnosis. Each eating disorder has its own diagnostic criteria that a mental health
+              professional will use to determine which disorder is involved. It is not necessary to have all the
+              criteria
+              for a disorder to benefit from working with a mental health professional on food and eating issues.</p>
+            <p>Often a person with an eating disorder will have symptoms of another mental health condition that
+              requires
+              treatment. Whenever possible, it is best to identified and address all conditions at the same time. This
+              gives a person comprehensive treatment support that helps insure a lasting recovery.</p>
+            <h2>Treatment</h2>
+            <p>Eating disorders are managed using a variety of techniques. Treatments will vary depending on the type of
+              disorder, but will generally include the following.</p>
+            <ul>
+              <li><strong>Psychotherapy,</strong> such
+                as talk therapy or behavioral therapy.</li>
+              <li><strong>Medicine,</strong>
+                such as antidepressants and anti-anxiety drugs. Many people living with an eating disorder often have a
+                co-occurring illness like depression or anxiety, and while there is no medication available to treat
+                eating disorders themselves, many patients find that these medicines help with underlying issues.</li>
+              <li><strong>Nutritional counseling and weight restoration monitoring</strong> are also
+                crucial. Family-based treatment is especially important for families with children and adolescents
+                because
+                it enlists the families&rsquo; help to better insure healthy eating patterns, and increases awareness
+                and
+                support.&nbsp;</li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>People with eating disorders often have additional illnesses:</p>
+            <ul>
+              <li>Depression</li>
+              <li>Anxiety disorders </li>
+              <li>Borderline personality disorder</li>
+              <li>Obsessive-compulsive disorder</li>
+              <li>Substance use disorders/ Dual Diagnosis</li>
+            </ul>
+            <p>Treating these illnesses can help make treating an eating disorder easier. Some of the symptoms of eating
+              disorders may be caused by another ilnesss.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Obsessive-Copulsive Disorder (OCD)</h1>
+            <p>Obsessive-compulsive disorder (OCD) is characterized by repetitive, unwanted, intrusive thoughts
+              (obsessions) and irrational, excessive urges to do certain actions (compulsions). Although people with OCD
+              may know that their thoughts and behavior don&#39;t make sense, they are often unable to stop them.</p>
+            <p>Symptoms typically begin during childhood, the teenage years or young adulthood, although males often
+              develop them at a younger age than females. 1.2% of U.S. adults experience OCD each year.&nbsp;</p>
+            <h2>Symptoms</h2>
+            <p>Most people have occasional obsessive thoughts or compulsive behaviors. In an obsessive-compulsive
+              disorder, however, these symptoms generally last more than an hour each day and interfere with daily life.
+            </p>
+            <p><strong>Obsessions</strong> are intrusive, irrational thoughts or impulses that repeatedly occur. People
+              with these disorders know these thoughts are irrational but are afraid that somehow they might be true.
+              These thoughts and impulses are upsetting, and people may try to ignore or suppress them.</p>
+            <p>Examples of obsessions include:</p>
+            <ul>
+              <li>Thoughts about harming or having harmed someone</li>
+              <li>Doubts about having done something right, like turning off the stove or locking a door</li>
+              <li>Unpleasant sexual images</li>
+              <li>Fears of saying or shouting inappropriate things in public</li>
+            </ul>
+            <p><strong>Compulsions</strong> are repetitive acts that temporarily relieve the stress brought on by an
+              obsession. People with these disorders know that these rituals don&#39;t make sense but feel they must
+              perform them to relieve the anxiety and, in some cases, to prevent something bad from happening. Like
+              obsessions, people may try not to perform compulsive acts but feel forced to do so to relieve anxiety.</p>
+            <p>Examples of compulsions include:</p>
+            <ul>
+              <li>Hand washing due to a fear of germs</li>
+              <li>Counting and recounting money because a person is can&#39;t be sure they added correctly</li>
+              <li>Checking to see if a door is locked or the stove is off</li>
+              <li>&quot;Mental checking&quot; that goes with intrusive thoughts is also a form of compulsion</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>The exact cause of obsessive-compulsive disorder&nbsp;is unknown, but researchers believe that activity
+              in
+              several portions of the brain is responsible. More specifically, these areas of the brain may not respond
+              normally to serotonin, a chemical that some nerve cells use to communicate with each other. Genetics are
+              thought to be very important. If you, your parent or a sibling, have&nbsp;obsessive-compulsive disorder,
+              there&#39;s around a&nbsp;25%
+              chance that another immediate family member will have it.</p>
+            <h2>Diagnosis</h2>
+            <p>A doctor or mental health care professional will make a diagnosis of OCD. A general physical with blood
+              tests is recommended to make sure the symptoms are not caused by illicit drugs, medications, another
+              mental
+              illness, or by a general medical condition. The sudden appearance of symptoms in children or older people
+              merits a thorough medical evaluation to ensure that another illness is not causing of these symptoms.</p>
+            <p>To be diagnosed with OCD, a person must have must have:</p>
+            <ul>
+              <li>Obsessions, compulsions or both</li>
+              <li>Obsessions or compulsions that are upsetting and cause difficulty with work, relationships, other
+                parts
+                of life and typically last for at least an hour each day</li>
+            </ul>
+            <h2>Treatment</h2>
+            <p>A typical treatment plan will often include both psychotherapy and medications, and combined treatment is
+              usually optimal.</p>
+            <ul>
+              <li><strong>Medication</strong>, especially a type of antidepressant called a
+                selective
+                serotonin reuptake inhibitor (SSRI), is helpful for many people to reduce the obsessions and
+                compulsions.
+              </li>
+              <li><strong>Psychotherapy</strong> is
+                also
+                helpful in relieving obsessions and compulsions. In particular,cognitive behavior therapy (CBT) and
+                exposure and response therapy (ERT) are effective for many people. Exposure response prevention therapy
+                helps a person tolerate the anxiety associated with obsessive thoughts while not acting out a compulsion
+                to reduce that anxiety. Over time, this leads to less anxiety and more self-mastery.</li>
+            </ul>
+            <p>Though OCD cannot be cured, it can be treated effectively. Read more on our treatment page.</p>
+            <h2>Related Conditions</h2>
+            <p>There are related conditions that share some characteristics with OCD but are considered separate
+              conditions.</p>
+            <ul>
+              <li><strong>Body Dysmorphic Disorder.</strong> This disorder is characterized by an obsession with
+                physical
+                appearance. Unlike simple vanity, BDD is characterized by obsessing over one&#39;s appearance and body
+                image, often for many hours a day. Any perceived flaws cause significant distress and ultimately impede
+                on
+                the person&#39;s ability to function. In some extreme cases, BDD can lead to bodily injury either due to
+                infection because of skin picking, excessive exercise, or from having unnecessary surgical procedures to
+                change one&rsquo;s appearance.</li>
+              <li><strong>Hoarding Disorder.</strong> This disorder is defined by the drive to collect a large amount of
+                useless or valueless items, coupled with extreme distress at the idea of throwing anything away. Over
+                time, this situation can render a space unhealthy or dangerous to be in. Hoarding disorder can
+                negatively
+                impact someone emotionally, physically, socially and financially, and often leads to distress and
+                disability. In addition, many hoarders cannot see that their actions are potentially harmful, and so may
+                resist diagnosis or treatment.</li>
+              <li><strong>Trichotillomania.</strong> Many people
+                develop unhealthy habits such as nail biting or teeth grinding, especially during periods of high
+                stress.
+                Trichotillomania, however, is the compulsive urge to pull out (and possibly eat) your own hair,
+                including
+                eyelashes and eyebrows. Some people may consciously pull out their hair, while others may not even be
+                aware that they are doing it. Trichotillomania can create serious injuries, such as repetitive motion
+                injury in the arm or hand, or, if the hair is repeatedly swallowed, the formation of hairballs in the
+                stomach, which can be life threatening if left untreated. A similar illness is excoriation disorder,
+                which
+                is the compulsive urge to scratch or pick at the skin.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Post Traumatic Stress Disorder (PTSD)</h1>
+            <p>Traumatic events&mdash;such as an accident, assault, military combat or natural disaster&mdash;can have
+              lasting effects on a person&rsquo;s mental health. While many people will have short term responses to
+              life-threatening events, some will develop longer term symptoms that can lead to a diagnosis of
+              Posttraumatic Stress Disorder (PTSD). PTSD symptoms often co-exist with other conditions such as substance
+              use disorders, depression and anxiety. A comprehensive medical evaluation resulting in an individualized
+              treatment plan is optimal.</p>
+            <p>PTSD affects 3.6% of the U.S. adult population&mdash;about 9&nbsp;million individuals. About 37% of those
+              diagnosed
+              with PTSD are classified as having severe symptoms. Women are significantly more likely to experience PTSD
+              than men.</p>
+            <h2>Symptoms</h2>
+            <p>A diagnosis of PTSD requires a discussion with a trained professional. Symptoms of PTSD generally fall
+              into
+              these broad categories:</p>
+            <ul>
+              <li><strong>Re-experiencing type symptoms</strong><em>,</em> such as recurring, involuntary and intrusive
+                distressing memories, which can include flashbacks of the trauma, bad dreams and intrusive thoughts.
+              </li>
+              <li><strong>Avoidance</strong>, which can include staying away from certain places or objects that are
+                reminders of the traumatic event. A person might actively avoid a place or person that might activate
+                overwhelming symptoms.</li>
+              <li><strong>Cognitive and mood symptoms</strong>, which can include trouble recalling the event, negative
+                thoughts about one&rsquo;s self. A person may also feel numb, guilty, worried or depressed and have
+                difficulty remembering the traumatic event. Cognitive symptoms can in some instances extend to include
+                out-of-body experiences or feeling that the world is &quot;not real&quot; (derealization).</li>
+              <li><strong>Arousal symptoms</strong><em>,</em> such as hypervigilance. Examples might include being
+                intensely startled by stimuli that resembles the trauma, trouble sleeping or outbursts of anger.</li>
+            </ul>
+            <p>Young children can also develop PTSD, and the symptoms are different from those of adults. (This recent
+              recognition by the field is a major step forward and research is ongoing.) Young children lack the ability
+              to convey some aspects of their experience. Behavior (e.g. clinging to parents) is often a better clue
+              than
+              words, and developmental achievements in an impacted child might slip back (e.g. reversion to not being
+              toilet trained in a 4-year-old).</p>
+            <p>It is essential that a child be assessed by a professional who is skilled in the developmental responses
+              to
+              stressful events. A pediatrician or child mental health clinician can be a good start.</p>
+            <h2>Causes</h2>
+            <p>PTSD can occur at any age and is directly associated with exposure to trauma. Adults and children who
+              have
+              PTSD represent a relatively small portion of those who have been exposed to trauma. This difference is not
+              yet well understood but we do know that there are risk factors that can increase a person&rsquo;s
+              likelihood
+              to develop PTSD. Risk factors can include &nbsp;prior experiences of trauma, and factors that may promote
+              resilience, such as social support. This is also an ongoing area of research.</p>
+            <p>We do know that for some, our &ldquo;fight-or-flight&rdquo; biological instincts, which can be
+              life-saving
+              during a crisis, can leave us with ongoing symptoms. Because the body is busy increasing its heart rate,
+              pumping blood to muscles, preparing the body to fight or flee, all our physical resources and energy are
+              focused on getting out of harm&rsquo;s way. Therefore, there has been discussion that the posttraumatic
+              stress response may not a disorder per se, but rather a variant of a human response to trauma.</p>
+            <p>Whether you think of these symptoms as a stress response variant or PTSD, consider them a consequence of
+              our body&rsquo;s inability to effectively return to &ldquo;normal&rdquo; in the months after its
+              extraordinary response to a traumatic event.</p>
+            <h2>Diagnosis</h2>
+            <p>Symptoms of PTSD usually begin within three months after experiencing or being exposed to a traumatic
+              event. Occasionally, symptoms may emerge years afterward. For a diagnosis of PTSD, symptoms must last more
+              than one month. Symptoms of depression, anxiety or substance use often accompany PTSD.</p>
+            <h2>Treatment</h2>
+            <p>Though PTSD cannot be cured, it can be treated and managed in several ways.</p>
+            <ul>
+              <li>Psychotherapy,
+                such as cognitive processing therapy or group therapy</li>
+              <li>Medications</li>
+              <li>Self-management strategies, such as self-soothing and mindfulness, are helpful to
+                ground a person and bring her back to reality after a flashback</li>
+              <li>Service animals, especially dogs, can help soothe some of the symptoms of PTSD</li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>Someone with PTSD may have additional disorders, as well as thoughts of or attempts at suicide:</p>
+            <ul>
+              <li>Anxiety Disorders</li>
+              <li>Obsessive-Compulsive Disorder (OCD)</li>
+              <li>Borderline Personality Disorder</li>
+              <li>Depression</li>
+              <li>Substance&nbsp;use disorders / Dual Diagnosis</li>
+            </ul>
+            <p>These other illnesses can make it challenging to treat PTSD. For example, medications used to treat OCD
+              or
+              depression may worsen symptoms of PTSD. Successfully treating PTSD almost always improves these related
+              illnesses and successful treatment of depression, anxiety or substance use usually improves PTSD symptoms.
+            </p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Psychosis</h1>
+            <p>Most people think of psychosis as a break with reality. In a way it is. Psychosis is characterized as
+              disruptions to a person&rsquo;s thoughts and perceptions that make it difficult for them to recognize what
+              is real and what isn&rsquo;t. These disruptions are often experienced as seeing, hearing and believing
+              things that aren&rsquo;t real or having strange, persistent thoughts, behaviors and emotions. While
+              everyone&rsquo;s experience is different, most people say psychosis is frightening and confusing.</p>
+            <p>Psychosis is a symptom, not an illness, and it is more common than you may think. In the U.S.,
+              approximately 100,000 young people experience psychosis each year. As many as 3 in 100 people will have an
+              episode at some point in their lives.</p>
+            <p>Early or first-episode psychosis (FEP)&nbsp;refers to when a person first shows signs of beginning to
+              lose
+              contact with reality.&nbsp;Acting quickly to connect a person with the right treatment during early
+              psychosis or FEP can be life-changing and radically alter that person&rsquo;s future. Don&rsquo;t wait to
+              take the first step and prepare yourself with information by reviewing these tip sheets:&nbsp;</p>
+            <p>What is Early and First-Episode Psychosis?<br />
+              Early Psychosis: What&#39;s Going on and What Can You Do?<br />
+              Encouraging People to Seek Help for Early Psychosis<br />
+              Early Intervention: Tips for School Staff and Coaches
+            </p>
+            <h2>Symptoms</h2>
+            <h3>Early warning signs before psychosis</h3>
+            <p>Early psychosis or FEP rarely comes suddenly. Usually, a person has gradual, non-specific changes in
+              thoughts and perceptions, but doesn&#39;t understand&nbsp;what&#39;s going on.&nbsp;Early warning signs
+              can
+              be difficult to distinguish from typical teen or young adult behavior. While such signs should not be
+              cause
+              for alarm, they may indicate the need to get an assessment from a doctor.</p>
+            <p>Encouraging people to seek help for early psychosis is important.&nbsp;Families are often the first to
+              see
+              early signs of psychosis and the first to address the issue of seeking treatment. However, a person&#39;s
+              willingness to accept help is often complicated by delusions, fears, stigma and feeling unsettled. In this
+              case, families can find the situation extremely difficult, but there are engagement strategies to help
+              encourage a person to seek help.</p>
+            <p>It&#39;s important to get help quickly since early treatment provides the best hope of recovery by
+              slowing,
+              stopping and possibly reversing the effects of psychosis. Early warning signs include the following:</p>
+            <ul>
+              <li>A worrisome drop in grades or job performance</li>
+              <li>Trouble thinking clearly or concentrating</li>
+              <li>Suspiciousness or uneasiness with others</li>
+              <li>A decline in self-care or personal hygiene</li>
+              <li>Spending a lot more time alone than usual</li>
+              <li>Strong, inappropriate emotions or having no feelings at all</li>
+            </ul>
+            <h3>Signs of early or first-episode psychosis</h3>
+            <p>Determining exactly when the first episode of psychosis begins can be hard, but these signs and symptoms
+              strongly indicate an episode of psychosis:</p>
+            <ul>
+              <li>Hearing, seeing, tasting or believing things that others don&rsquo;t</li>
+              <li>Persistent, unusual thoughts or beliefs that can&rsquo;t be set aside regardless of what others
+                believe
+              </li>
+              <li>Strong and inappropriate emotions or no emotions at all</li>
+              <li>Withdrawing from family or friends</li>
+              <li>A sudden decline in self-care</li>
+              <li>Trouble thinking clearly or concentrating</li>
+            </ul>
+            <p>Such warning signs often point to a person&rsquo;s deteriorating health, and a physical and neurological
+              evaluation can help find the problem. A mental health professional performing a psychological evaluation
+              can
+              determine if a mental health condition is involved and discuss next steps. If the psychosis is a symptom
+              of
+              a mental health condition, early action helps to keep lives on track.</p>
+            <h3>Psychosis</h3>
+            <p>Psychosis includes a range of symptoms but typically involves one of these two major experiences:</p>
+            <p><strong>Hallucinations</strong>&nbsp;are seeing, hearing or&nbsp;feeling things that aren&rsquo;t there,
+              such as the following:</p>
+            <ul>
+              <li>Hearing voices (auditory hallucinations)</li>
+              <li>Strange sensations or unexplainable feelings</li>
+              <li>Seeing glimpses of objects or people that are not there or distortions</li>
+            </ul>
+            <p><strong>Delusions</strong>&nbsp;are strong beliefs that are not consistent with the person&rsquo;s
+              culture,
+              are unlikely to be true and may seem irrational to others, such as the following:</p>
+            <ul>
+              <li>Believing external forces are controlling thoughts, feelings and behaviors</li>
+              <li>Believing that trivial remarks, events or objects have personal meaning or significance</li>
+              <li>Thinking you have special powers, are on a special mission or even that you are God.</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>We are still learning about how and why psychosis develops, but several factors are likely involved. We
+              do
+              know that teenagers and young adults are at increased risk of experiencing an episode of psychosis because
+              of hormonal changes in their brain during puberty.</p>
+            <p>Several factors that can contribute to psychosis:</p>
+            <ul>
+              <li><strong>Genetics.&nbsp;</strong>Many genes can contribute&nbsp;to&nbsp;the development of psychosis,
+                but
+                just because a person has a gene doesn&rsquo;t mean they will experience psychosis. Ongoing studies will
+                help&nbsp;us&nbsp;better understand which genes play a role in psychosis.</li>
+              <li><strong>Trauma.</strong>&nbsp;A traumatic event such as a death, war or sexual assault can trigger a
+                psychotic episode. The type of trauma&mdash;and a person&rsquo;s age&mdash;affects whether a traumatic
+                event will result in psychosis.</li>
+              <li><strong>Substance use.&nbsp;</strong>The use of marijuana, LSD, amphetamines and other substances can
+                increase the risk of psychosis in people who are already vulnerable.</li>
+              <li><strong>Physical illness or injury.</strong>&nbsp;Traumatic brain injuries, brain tumors, strokes, HIV
+                and some brain diseases such as Parkinson&rsquo;s, Alzheimer&rsquo;s and dementia can sometimes cause
+                psychosis.</li>
+              <li><strong>Mental health conditions.</strong>&nbsp;Sometimes psychosis is a symptom of a condition like
+                schizophrenia, schizoaffective disorder, bipolar disorder or depression.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>A diagnosis identifies an illness; symptoms are components of an illness. Health care providers draw on
+              information from medical and family history and a physical examination to diagnose someone. If causes such
+              as a brain tumor, infection or epilepsy are ruled out,&nbsp;a mental illness might be the reason.</p>
+            <p>If the cause is related to a mental health condition, early diagnosis and treatment provide the best hope
+              of recovery. Research shows that the earlier people experiencing psychosis receive treatment, the better
+              their long-term quality of life.</p>
+            <h2>Treatment</h2>
+            <h3>Early or first-episode psychosis</h3>
+            <p>Early treatment of psychosis, especially during the first episode, leads to the best outcomes.</p>
+            <p>Research has shown significant success using a treatment approach called Coordinated Specialty Care
+              (CSC).
+              CSC uses a team of health professionals and specialists who work with a person to create a personal
+              treatment plan based on life goals while involving family members as much as possible.</p>
+            <p>CSC has the following key components:</p>
+            <ul>
+              <li>Case management</li>
+              <li>Family support and education</li>
+              <li>Psychotherapy</li>
+              <li>Medication management</li>
+              <li>Supported education and employment</li>
+              <li>Peer support</li>
+            </ul>
+            <p>SAMHSA maintains an Early Serious
+              Mental Illness (ESMI) Treatment Locator as a source of information for family members who are
+              seeking
+              CSC programs in the US. Portions of their website are available in Spanish.</p>
+            <h3>Psychosis treatment</h3>
+            <p>Traditional treatment for psychosis involves psychotherapy andmedication.
+              Several types of therapy have successfully helped individuals learn to manage their condition. In
+              addition,
+              medication targets symptoms and helps reduce their impact.</p>
+            <h2>Related Conditions</h2>
+            <p>Psychosis can be related to several mental health conditions:</p>
+            <ul>
+              <li>Bipolar Disorder</li>
+              <li>Schizoaffective Disorder</li>
+              <li>Schizophrenia</li>
+              <li>Substance use disorders / Dual Diagnosis</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Schizoaffective Disorder</h1>
+            <p>Schizoaffective disorder is a chronic mental health condition characterized primarily by symptoms of
+              schizophrenia, such as hallucinations or delusions, and symptoms of a mood disorder, such as mania and
+              depression.</p>
+            <p>Many people with schizoaffective disorder are often incorrectly diagnosed at first with bipolar disorder
+              or
+              schizophrenia.&nbsp;Because schizoaffective disorder is less well-studied than the other two conditions,
+              many interventions are borrowed from their treatment approaches.&nbsp;</p>
+            <p>Schizoaffective is relatively rare, with a lifetime prevalence of only&nbsp;0.3%. Men and women
+              experience
+              schizoaffective disorder at the same rate, but men often develop the illness at an earlier age.
+              Schizoaffective disorder can be managed effectively&nbsp;with medication and therapy. Co-occurring
+              substance
+              use disorders are a serious risk and require integrated treatment.</p>
+            <h2>Symptoms</h2>
+            <p>The symptoms of schizoaffective disorder can be severe and need to be monitored closely. Depending on the
+              type of mood disorder diagnosed, depression or&nbsp;bipolar disorder, people will&nbsp;experience
+              different&nbsp;symptoms:</p>
+            <ul>
+              <li>Hallucinations, which are&nbsp;seeing or hearing things that aren&rsquo;t there.</li>
+              <li>Delusions, which are false, fixed beliefs that are held&nbsp;regardless of
+                contradictory&nbsp;evidence.
+              </li>
+              <li>Disorganized thinking. A person may switch very quickly from one topic to another or provide answers
+                that are completely unrelated.</li>
+              <li>Depressed mood. If a person has been diagnosed with schizoaffective disorder depressive type they will
+                experience feelings of sadness, emptiness, feelings of worthlessness or other symptoms of depression.
+              </li>
+              <li>Manic behavior. If a person&nbsp;has been diagnosed with schizoaffective disorder:&nbsp;bipolar type
+                they will experience feelings of euphoria, racing thoughts, increased risky behavior and other symptoms
+                of
+                mania.</li>
+            </ul>
+            <h2>Causes</h2>
+            <p>The exact cause of schizoaffective disorder is unknown. A combination of causes&nbsp;may contribute to
+              the
+              development of schizoaffective disorder.</p>
+            <ul>
+              <li><strong>Genetics.</strong>&nbsp;Schizoaffective disorder tends to run in families. This does not mean
+                that if a relative has an illness, you will absolutely get it. But it does mean that there is a greater
+                chance of you developing the illness.</li>
+              <li><strong>Brain chemistry and structure.</strong>&nbsp;Brain function and structure may be different in
+                ways that science is only beginning to understand. Brain scans are helping to advance research in this
+                area.</li>
+              <li><strong>Stress.</strong> Stressful events such as a death in the family, end of a marriage or loss of
+                a
+                job can trigger symptoms or an onset of the illness.</li>
+              <li><strong>Drug use.</strong> Psychoactive drugs such as LSD have been linked to the development of
+                schizoaffective disorder.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>Schizoaffective disorder can be difficult to diagnose because it has symptoms of both schizophrenia and
+              either depression or bipolar disorder. There are two major types of schizoaffective disorder: bipolar type
+              and depressive type.&nbsp;To be diagnosed with schizoaffective disorder a person must have the following
+              symptoms.</p>
+            <ul>
+              <li>A period during which there is a major mood disorder, either depression or mania, that occurs at the
+                same time that symptoms of schizophrenia are present.</li>
+              <li>Delusions or hallucinations for two or more weeks in the absence of a major mood episode.</li>
+              <li>Symptoms that meet criteria for a major mood episode are present for the majority of the total
+                duration
+                of the illness.</li>
+              <li>The abuse of drugs or a medication are not responsible for the symptoms.</li>
+            </ul>
+            <h2>Treatment</h2>
+            <p>Schizoaffective disorder is treated and managed in several ways:</p>
+            <ul>
+              <li>Medications,
+                including&nbsp;mood stabilizers, antipsychotic medications and antidepressants</li>
+              <li>Psychotherapy,
+                such as&nbsp;cognitive behavioral therapy or family-focused therapy</li>
+              <li><strong>Self-management strategies and education</strong></li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>A person with schizoaffective disorder may have additional mental health conditions:</p>
+            <ul>
+              <li>Anxiety disorders
+              </li>
+              <li>Posttraumatic stress disorder (PTSD)</li>
+              <li>Attention-deficit hyperactivity
+                disorder (ADHD)</li>
+              <li>Substance use disorders / Dual Diagnosis</li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overview-content tab-content">
+            <h1 class="text-center">Schizophrenia</h1>
+            <p>Schizophrenia is a serious mental illness that interferes with a person&rsquo;s ability to think clearly,
+              manage emotions, make decisions and relate to others. It is a complex, long-term medical illness. The
+              exact
+              prevalence of schizophrenia is difficult to measure, but estimates range from 0.25% to
+              0.64%
+              of U.S. adults. Although schizophrenia can occur at any age, the average age of onset tends to be in the
+              late teens to the early 20s for men, and the late 20s to early 30s for women. It is uncommon for
+              schizophrenia to be diagnosed in a person younger than 12 or older than 40. It is possible to live well
+              with
+              schizophrenia.</p>
+            <h2>Symptoms</h2>
+            <p>It can be difficult to diagnose schizophrenia in teens. This is because the first signs can include a
+              change of friends, a drop in grades, sleep problems, and irritability&mdash;common and nonspecific
+              adolescent behavior. Other factors include isolating oneself and withdrawing from others, an increase in
+              unusual thoughts and suspicions, and a family history of psychosis. In young people who develop
+              schizophrenia, this stage of the disorder is called the &quot;prodromal&quot; period.</p>
+            <p>With any condition, it&#39;s essential to get a comprehensive medical evaluation in order to obtain the
+              best diagnosis. For a diagnosis of schizophrenia, some of the following symptoms are present in the
+              context
+              of reduced functioning for a least 6 months:</p>
+            <p><strong>Hallucinations.&nbsp;</strong>These include&nbsp;a person hearing voices, seeing things, or
+              smelling things others can&rsquo;t perceive. The hallucination is very real to the person experiencing it,
+              and it may be very confusing for a loved one to witness. The voices in the hallucination can be critical
+              or
+              threatening. Voices may involve people that are known or unknown to the person hearing them.</p>
+            <p><strong>Delusions.</strong>&nbsp;These are false beliefs that don&rsquo;t change even when the person who
+              holds them is presented with new ideas or facts. People who have delusions often also have problems
+              concentrating, confused thinking, or the sense that their thoughts are blocked.</p>
+            <p><strong>Negative symptoms</strong> are ones that diminish a person&rsquo;s abilities. Negative symptoms
+              often include being emotionally flat or speaking in a dull, disconnected way. People with the negative
+              symptoms may be unable to start or follow through with activities, show little interest in life, or
+              sustain
+              relationships. Negative symptoms are sometimes confused with clinical depression.</p>
+            <p><b>Cognitive issues/disorganized thinking</b>. People with the cognitive symptoms of schizophrenia often
+              struggle to remember things, organize their thoughts or complete tasks. Commonly, people with
+              schizophrenia
+              have anosognosia or &ldquo;lack of
+              insight.&rdquo; This means the person is unaware that he has the illness, which can make treating or
+              working
+              with him much more challenging.</p>
+            <h2>Causes</h2>
+            <p>Research suggests that schizophrenia may have several possible causes:</p>
+            <ul>
+              <li><strong>Genetics</strong>. Schizophrenia isn&rsquo;t caused by just one genetic variation, but a
+                complex
+                interplay of genetics and environmental influences. Heredity does play a strong
+                role&mdash;your&nbsp;likelihood of developing schizophrenia is more than&nbsp;six&nbsp;times higher if
+                you
+                have a close relative, such as a parent or sibling, with the disorder</li>
+              <li><strong>Environment.</strong> Exposure to viruses or malnutrition before birth, particularly in the
+                first and second trimesters has been shown to increase the risk of&nbsp;schizophrenia. Recent research
+                also suggests a relationship between autoimmune disorders and the development of psychosis.&nbsp;</li>
+              <li><strong>Brain chemistry.</strong> Problems with certain brain chemicals, including neurotransmitters
+                called dopamine and glutamate, may contribute to schizophrenia. Neurotransmitters allow brain cells to
+                communicate with each other. Networks of neurons are likely involved as well.</li>
+              <li><strong>Substance use.</strong> Some studies have suggested that taking mind-altering drugs during
+                teen
+                years and young adulthood can increase the risk of schizophrenia. A growing body of evidence indicates
+                that smoking marijuana increases the risk of psychotic incidents and the risk of ongoing psychotic
+                experiences. The younger and more frequent the use, the greater the risk.</li>
+            </ul>
+            <h2>Diagnosis</h2>
+            <p>Diagnosing schizophrenia is not easy. Sometimes using drugs, such as methamphetamines or LSD, can cause a
+              person to have schizophrenia-like symptoms.&nbsp;The difficulty of diagnosing this illness is compounded
+              by
+              the fact that many people who are diagnosed do not believe they have it. Lack of awareness is a common
+              symptom of people diagnosed with schizophrenia and greatly complicates treatment.</p>
+            <p>While there is no single physical or lab test that can diagnosis schizophrenia, a health care provider
+              who
+              evaluates the symptoms and the course of a person&#39;s illness over six months can help ensure a correct
+              diagnosis. The health care provider must rule out other factors such as brain tumors, possible medical
+              conditions and other psychiatric diagnoses, such as bipolar disorder.</p>
+            <p>To be diagnosed with schizophrenia, a person must have two or more of the following symptoms occurring
+              persistently in the context of reduced functioning:</p>
+            <ul>
+              <li>Delusions</li>
+              <li>Hallucinations</li>
+              <li>Disorganized speech</li>
+              <li>Disorganized or catatonic behavior</li>
+              <li>Negative symptoms</li>
+            </ul>
+            <p>Delusions or hallucinations alone can often be enough to lead to a diagnosis of schizophrenia.
+              Identifying
+              it as early as possible greatly improves a person&rsquo;s chances of managing the illness, reducing
+              psychotic episodes, and recovering. People who receive good care during their first psychotic episode are
+              admitted to the hospital less often, and may require less time to control symptoms than those who
+              don&rsquo;t receive immediate help. The literature on the role of medicines early in treatment is
+              evolving,
+              but we do know that psychotherapy is essential.</p>
+            <p>People can describe symptoms in a variety of ways. How a person describes symptoms often depends on the
+              cultural lens she is looking through. African Americans and Latinos are more likely to be misdiagnosed,
+              potentially&nbsp;due to differing cultural perspectives&nbsp;or structural barriers. Any person who has
+              been
+              diagnosed with schizophrenia should try to work with a health care professional that understands his or
+              her
+              cultural background and shares the same expectations for treatment.</p>
+            <h2>Treatment</h2>
+            <p>There is no cure for schizophrenia, but it can be treated and managed in several ways.</p>
+            <ul>
+              <li>Antipsychotic
+                medications</strong></li>
+              <li><strong>Psychotherapy</strong>, such
+                as cognitive behavioral therapy and assertive community treatment and supportive therapy</li>
+              <li><strong>Self-management strategies and education</strong></li>
+            </ul>
+            <h2>Related Conditions</h2>
+            <p>People with schizophrenia may have additional illnesses. These may include:</p>
+            <ul>
+              <li>Substance use disorders/ Dual Diagnosis</li>
+              <li>Posttraumatic stress disorder&nbsp;(PTSD)</li>
+              <li>Obsessive-compulsive disorder&nbsp;(OCD)</li>
+              <li>Major depressive
+                disorder </li>
+            </ul>
+            <p>Successfully treating schizohprenia almost always improves these related illnesses. And successful
+              treatment of substance misuse, PTSD or OCD usually improves the symptoms of schizophrenia.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <section>
+    <div class="footer">
+      <span>Made By- </span> <br>
+      <hr>
+      <span class="name">Abhay Singh Chauhan <br>20165004 <br></span>
+    </div>
+  </section>
+
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+
+
+
+    const heading = document.querySelector('.wheel-heading');
+    const bracket = document.querySelector('.wheel');
+    const nav = document.querySelector('.nav-menu');
+    const arrow = document.querySelector('.click-here')
+    bracket.addEventListener('click', () => {
+      bracket.classList.add('scroll-out');
+      heading.classList.add('hide');
+      nav.classList.remove('hide');
+      arrow.classList.add('hide');
+    })
+
+    document.querySelector('.nav-menu.menu a').addEventListener('click', (e) => {
+      e.preventDefault();
+    })
+  </script>
+</body>
+
+</html>
